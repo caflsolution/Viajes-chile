@@ -1,0 +1,75 @@
+body{
+    background-color: #252525;
+}
+/* Header */
+.imagenes-carousel{
+    height: 100vh;
+}
+.navbar {
+    background-color: transparent !important;
+}
+
+/* subtitulos */
+h2{
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+/* background */
+#footer, .card, hr, .btn-turquesa{
+    background-color: #17a3b8;
+    
+}
+
+/* hr */
+hr{
+    height: 1px;
+}
+/* p */
+p{
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* imagenes */
+.imagenes-card{
+    max-height: 170px;
+}
+
+h4, .navegador{
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+@media(max-width : 576px){
+
+    .logo{
+        min-height: 38px;
+        max-width: 38px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .navegador{
+        font-size: 16px;
+    }
+
+}
+@media(min-width : 576px){
+
+    .logo{
+        min-height: 50px;
+        max-width: 50px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .navegador{
+        font-size: 18px;
+    }
+
+}
